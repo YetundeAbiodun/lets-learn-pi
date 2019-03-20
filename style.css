@@ -1,0 +1,508 @@
+/* HOMEPAGE CSS */
+
+
+/* .dropdown-menu {
+    position: absolute;
+} */
+
+.dropdown-item {
+    font-size: 14px;
+}
+
+
+/* CEE subjects */
+
+ul.unordered_tests {
+    list-style-type: none;
+    margin-left: -45px;
+    padding-bottom: 25px;
+}
+
+.unordered_tests a {
+    color: white;
+}
+
+
+/* SSCE tests nav */
+
+.nav-ssce {
+    margin-left: 180px;
+    font-size: 50px;
+    letter-spacing: 0.1em;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif
+}
+
+
+/* CEE tests nav */
+
+#nav-cee,
+#nav-cee2,
+#nav-cee3,
+#nav-cee4,
+#nav-cee5,
+#nav-cee6 {
+    /* margin-top: 80px; */
+    margin-top: 100px;
+    margin-left: 85px;
+    font-size: 30px;
+    letter-spacing: 0.1em;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif
+}
+
+
+/* CONTACT US CSS */
+
+@import url("https://fonts.googleapis.com/css?family=Ubuntu");
+body {
+    background-color: cornsilk;
+}
+
+.wrapper {
+    max-width: 800px;
+    margin: 50px auto;
+    background: #8b795e;
+    box-sizing: border-box;
+    padding: 40px;
+    box-shadow: 0 0 5px rgba(0, 0, 0, 0.5);
+}
+
+h1 {
+    text-align: center;
+    text-transform: uppercase;
+    color: cornsilk;
+    margin-bottom: 50px;
+    font-size: 35px;
+    font-family: "Ubuntu", sans-serif;
+}
+
+.address {
+    display: flex;
+    justify-content: space-around;
+    text-align: center;
+    color: cornsilk;
+    margin-bottom: 50px;
+    font-family: "Ubuntu", sans-serif;
+}
+
+.inner-address p {
+    font-size: 12px;
+    font-family: "Ubuntu", sans-serif;
+}
+
+.inner-address .fas {
+    font-size: 30px;
+    margin-bottom: 10px;
+}
+
+.form {
+    display: flex;
+    flex-direction: column;
+    font-family: "Ubuntu", sans-serif;
+    align-items: center;
+    margin-bottom: 50px;
+}
+
+.form-title {
+    font-size: 25px;
+    margin-bottom: 20px;
+    color: cornsilk;
+    font-family: "Ubuntu", sans-serif;
+    text-align: center;
+}
+
+.input-form {
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+    margin-bottom: 20px;
+    font-family: "Ubuntu", sans-serif;
+}
+
+.inner-msg {
+    width: 100%;
+    margin-bottom: 20px;
+    font-family: "Ubuntu", sans-serif;
+}
+
+.input>input {
+    border: 0;
+    width: 260px;
+    padding: 10px 20px;
+    outline: none;
+    font-family: "Ubuntu", sans-serif;
+}
+
+.msg>textarea {
+    width: 100%;
+    border: 0;
+    padding: 10px 20px;
+    outline: none;
+    height: 80px;
+    font-family: "Ubuntu", sans-serif;
+}
+
+.btn {
+    border: 2px solid #fff;
+    padding: 10px 20px;
+    color: #fff;
+    cursor: pointer;
+    transition: all 0.5s ease;
+    font-family: "Ubuntu", sans-serif;
+}
+
+.btn:hover {
+    background: 8b795e;
+    color: cornsilk;
+}
+
+.social {
+    display: flex;
+    justify-content: center;
+    color: cornsilk;
+}
+
+.inner-social .fab {
+    margin: 0 20px;
+    font-size: 30px;
+    cursor: pointer;
+    transition: all 0.5s ease;
+    color: black;
+    opacity: 0.75;
+}
+
+.fab:hover {
+    color: white;
+}
+
+::-webkit-input-placeholder {
+    /* Chrome/Opera/Safari */
+    color: #a9aacd;
+}
+
+::-moz-placeholder {
+    /* Firefox 19+ */
+    color: #a9aacd;
+}
+
+:-ms-input-placeholder {
+    /* IE 10+ */
+    color: #a9aacd;
+}
+
+@media screen and (max-width: 640px) {
+    .input-form {
+        flex-direction: column;
+    }
+    .input:first-child>input {
+        margin-bottom: 20px;
+    }
+    .form .input>input {
+        width: 100% !important;
+    }
+}
+
+@media screen and (max-width: 580px) {
+    .address {
+        flex-direction: column;
+        align-items: center;
+    }
+    .inner-address {
+        margin-bottom: 20px;
+    }
+    .social {
+        flex-direction: column;
+        align-items: center;
+    }
+    .inner-social {
+        margin-bottom: 20px;
+    }
+}
+
+
+/* ABOUT US CSS */
+
+body {
+    background-color: cornsilk;
+}
+
+#sub {
+    color: cornsilk;
+    text-align: center;
+}
+
+separator-type,
+.title-type,
+.intro-type,
+.content-type .intro-type p {
+    position: relative;
+}
+
+.parallax {
+    background-attachment: inherit !important;
+    background-repeat: repeat;
+    background-size: cover;
+    position: absolute;
+    top: 0px;
+    bottom: 0px;
+    width: 100%;
+    z-index: -10;
+}
+
+.company-heading h1 {
+    margin-bottom: 40px;
+    line-height: 80px;
+    color: #fff;
+    font-weight: 700 !important;
+    text-align: center;
+}
+
+
+/* .seo-header,
+.product-header,
+.intro-type .container h1.white,
+.company-heading h1 {
+    font-family: 'Raleway', sans-serif;
+    font-weight: 100 !important;
+    text-transform: capitalize;
+    font-size: 65px;
+    margin-bottom: 20px;
+} */
+
+
+/* .company-sections h2,
+.careers-sections h2,
+.perks-section h2 {
+    font-weight: 800;
+    font-size: 50px;
+} */
+
+
+/* .company-sections h2,
+.company-sections h3,
+.careers-sections h2,
+.perks-section h2 {
+    font-family: 'proxima-nova', sans-serif;
+} */
+
+
+/* .company-sections h3 {
+    font-size: 25px;
+    font-weight: 700;
+    margin: 14px 0;
+    font-family: 'proxima-nova', sans-serif;
+    text-transform: capitalize;
+} */
+
+
+/* .company-sections p {
+    margin-top: 20px;
+} */
+
+
+/* .ct-u-size22 {
+    font-size: 22px;
+} */
+
+.ct-u-paddingBoth100 {
+    padding: 100px 15px;
+}
+
+
+/* SSCE SUBJECT TESTS CSS */
+
+h2#accttest1_status,
+h2#accttest1b_status,
+h2#accttest2_status,
+h2#accttest2b_status,
+h2#accttest3_status,
+h2#accttest3b_status,
+h2#accttest4_status,
+h2#accttest5_status,
+h2#biotest1_status,
+h2#biotest2_status,
+h2#biotest3_status,
+h2#biotest4_status,
+h2#biotest5_status,
+h2#chemtest1_status,
+h2#chemtest2_status,
+h2#chemtest3_status,
+h2#chemtest4_status,
+h2#chemtest5_status,
+h2#engtest1_status,
+h2#engtest2_status,
+h2#engtest3_status,
+h2#engtest4_status,
+h2#engtest5_status,
+h2#geotest1_status,
+h2#geotest2_status,
+h2#geottest3_status,
+h2#geotest4_status,
+h2#geotest5_status,
+h2#govtest1_status,
+h2#govtest2_status,
+h2#govtest3_status,
+h2#govtest4_status,
+h2#govtest5_status,
+h2#mathstest1_status,
+h2#mathstest2_status,
+h2#mathstest3_status,
+h2#mathstest4_status,
+h2#mathstest5_status,
+h2#phystest1_status,
+h2#phystest2_status,
+h2#phystest3_status,
+h2#phystest4_status,
+h2#phystest5_status {
+    margin-top: -80px;
+    margin-bottom: -100px;
+}
+
+div#accttest1,
+div#accttest1b,
+div#accttest2,
+div#accttest2b,
+div#accttest3,
+div#accttest3b,
+div#accttest4,
+div#accttest5,
+div#biotest1,
+div#biotest2,
+div#biotest3,
+div#biotest4,
+div#biotest5,
+div#chemtest1,
+div#chemtest2,
+div#chemtest3,
+div#chemtest4,
+div#chemtest5,
+div#engtest1,
+div#engtest2,
+div#engtest3,
+div#engtest4,
+div#engtest5,
+div#geotest1,
+div#geotest2,
+div#geotest3,
+div#geotest4,
+div#geotest5,
+div#govtest1,
+div#govtest2,
+div#govtest3,
+div#govtest4,
+div#govtest5,
+div#mathstest1,
+div#mathstest2,
+div#mathstest3,
+div#mathstest4,
+div#mathstest5,
+div#phystest1,
+div#phystest2,
+div#phystest3,
+div#phystest4,
+div#phystest5 {
+    color: white;
+    /* border: black 1px solid;
+    padding: 10px 40px 40px 40px; */
+    width: 750px;
+    height: 220px;
+    border: 2px outset black;
+    padding: 10px 5px 10px 5px;
+    margin: 50px 50px 50px 0px;
+    -moz-box-shadow: 5px 5px 5px 10px #777777;
+    -webkit-box-shadow: 5px 5px 5px 5px #777777;
+    box-shadow: 5px 5px 5px 5px #777777;
+    /* background-color: yellowgreen; */
+}
+
+
+/* CEE SUBJECT TESTS CSS */
+
+div#test,
+div#test2,
+div#test3,
+div#test4,
+div#test5,
+div#test6,
+div#test7,
+div#test8,
+div#test9,
+div#test10,
+div#test11,
+div#test12,
+div#test13,
+div#test14,
+div#test15,
+div#test16,
+div#test17,
+div#test18,
+div#test19,
+div#test20,
+div#test21,
+div#test22,
+div#test23,
+div#test24,
+div#test25,
+div#test26,
+div#test27,
+div#test28,
+div#test29,
+div#test30,
+div#test31,
+div#test32,
+div#test33,
+div#test34,
+div#test35,
+div#test36 {
+    color: white;
+    /* border: black 1px solid;
+    padding: 10px 40px 40px 40px; */
+    width: 750px;
+    height: 220px;
+    border: 2px outset black;
+    padding: 10px 5px 10px 5px;
+    margin: 50px 50px 50px 0px;
+    -moz-box-shadow: 5px 5px 5px 10px #777777;
+    -webkit-box-shadow: 5px 5px 5px 5px #777777;
+    box-shadow: 5px 5px 5px 5px #777777;
+    /* background-color: yellowgreen; */
+}
+
+h2#test_status,
+h2#test_status2,
+h2#test_status3,
+h2#test_status4,
+h2#test_status5,
+h2#test_status6,
+h2#test_status7,
+h2#test_status8,
+h2#test_status9,
+h2#test_status10,
+h2#test_status11,
+h2#test_status12,
+h2#test_status13,
+h2#test_status14,
+h2#test_status15,
+h2#test_status16,
+h2#test_status17,
+h2#test_status18,
+h2#test_status19,
+h2#test_status20,
+h2#test_status21,
+h2#test_status22,
+h2#test_status23,
+h2#test_status24,
+h2#test_status25,
+h2#test_status26,
+h2#test_status27,
+h2#test_status28,
+h2#test_status29,
+h2#test_status30,
+h2#test_status31,
+h2#test_status32,
+h2#test_status33,
+h2#test_status34,
+h2#test_status35,
+h2#test_status36 {
+    margin-top: -80px;
+    margin-bottom: -100px;
+}
